@@ -1,13 +1,19 @@
-body {
-    background-color: white;
-}
-
-h1 {
-    color: red;
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-p {
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 20px;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+    color: white;
 }
